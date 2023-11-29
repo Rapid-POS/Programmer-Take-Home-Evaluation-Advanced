@@ -11,7 +11,7 @@ This document will list the steps a candidate for the Programming Team Lead posi
 
 ## Task
 - Task #1:
-	- Create a .NET Core Web API (MVC or Micro API) that takes a JSON payload with fields that are required to build a Point-of-Sale transaction. Keep in mind that not all fields should be passed in the payload but calculated and/or obtained from related tables in the database.
+	- Create a .NET Core Web API (MVC or Micro API) that takes a JSON payload with fields that are required to build a Point-of-Sale transaction in the GOLF_WAREHOUSE database. Note that not all fields should be passed in the payload but calculated and/or obtained from related tables in the database.
 - Task #2:
 	- Create a trigger on PS_DOC_LIN that evaluates the minimum quantity by location (IM_INV.MIN_QTY) vs the quantity sold (PS_DOC_LIN.QTY_SOLD) and generates a record in a custom table called USER_SUGGESTED_REPLINESHMENT that suggest the quantity that should be ordered from the vendor when a record is inserted, updated or deleted in PS_DOC_LIN.
 		- Note: **Columns are not given but should be generated **
