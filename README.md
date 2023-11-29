@@ -16,7 +16,7 @@ This document will list the steps a candidate for the Programming Team Lead posi
 	- Create a trigger on PS_DOC_LIN that evaluates the minimum quantity by location (IM_INV.MIN_QTY) vs the quantity sold (PS_DOC_LIN.QTY_SOLD) and generates a record in a custom table called USER_SUGGESTED_REPLINESHMENT that suggest the quantity that should be ordered from the vendor when a record is inserted, updated or deleted in PS_DOC_LIN.
 		- Note: **Columns are not given but should be generated **
 - Task #3:
-	- Upload both projects to your personal GitHub repository and invite `matt@rapidpos.com` and `dorin@rapidpos.com`
+	- Place the results in a Repository on your GitHub account along with a ReadMe containing your full name and which method or job site you used to reach this repository. Send an invitation to your repository to Rapid POS at `recruiting.programmer@rapidpos.com`
 
 ## Notes
 - Table descriptions
